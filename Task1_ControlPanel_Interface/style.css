@@ -1,0 +1,132 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 100vh;
+
+	background-image: url('img11.jpeg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    background-size: cover;
+
+	font-family: sans-serif;
+	font-family: "VT323"
+}
+
+ul{
+	width: 600px;
+	height: 300px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+li{
+	width: 600px;
+	/*height: 100px;*/
+	height: 80px;
+		padding: 0;
+	margin: 0;
+}
+
+p{
+font-weight: bold;
+font-weight: 900;
+font-size: 30px;
+margin-top: 0;
+color: #ffffff;
+
+}
+#corner{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.bigbox{
+
+/*	position: absolute;*/
+	width: 600px;
+	height: 350px;
+	margin: 150px;
+	padding: 30px;
+	border-radius: 20px;
+	background: #ffffff;
+	text-align: center;
+	box-shadow: 0 10px 30px rgba(0,0,0,1);
+  background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+}
+.container{
+	height: 300px;
+	display: flex;
+/*	flex-wrap: wrap;*/
+	margin-top: 35px;
+}
+.container2{
+	float: right;
+}
+
+.button{
+  border: none;
+  color: black;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 80px;
+  transition: 1.5s ease;
+
+  padding: 20px;
+  position: relative;
+  text-shadow: 0 3px 5px rgba(0,0,0,0.6);
+  white-space: nowrap;
+  color: #fff;
+  user-select: none;
+  background: transparent;
+ /*   font-family: 'VT323' , monospace;*/
+          outline: none;
+  background-color: #990033; 
+  color: white; 
+  border: 2px solid #990033;
+}
+.button1 {
+width: 60px;
+}
+.button2 {
+width: 104px;
+padding: 13px;
+height: 62px;
+}
+.button3 {
+width: 62px;
+height: 62px;
+padding: 13px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.button:hover {
+	/*box-shadow: 0 9px 50px # 072846 inset, 0 9px 50px 0 #072846;
+	box-shadow: 0 14px 18px 0 rgba(0,0,0,0.30), 0 17px 50px 0 rgba(0,0,0,0.19);*/
+	color: black;
+	border-color: #072846;
+	background-color: rgba(255, 255, 102);
+	/*	background-color:#fff;	*/
+	/*  background-color: rgba(179, 0, 59);*/
+}
+.button3:hover{
+	background-color: rgba(255, 0, 0);
+	color: white;
+}
+.button1:active {
+	/* box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 10),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);*/
+}
